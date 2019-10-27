@@ -17,10 +17,10 @@ Hello World
 {"message":"Hello World - Changed"}
 ```
 
-- http://localhost:5000/hello-world/path-variable/in28minutes
+- http://localhost:5000/hello-world/path-variable/todoUser
 
 ```json
-{"message":"Hello World, in28minutes"}
+{"message":"Hello World, todoUser"}
 ```
 
 
