@@ -1,6 +1,6 @@
 # Todo and Hello World Rest APIs Connecting to H2 In memory database running on port 5000
 
-Run com.in28minutes.rest.webservices.restfulwebservices.RestfulWebServicesApplication as a Java Application.
+Run com.abinash.cloud.rest.webservices.restfulwebservices.RestfulWebServicesApplication as a Java Application.
 
 
 ## Hello World Resource
@@ -26,27 +26,27 @@ Hello World
 
 ## Todo Resource
 
-- GET - http://localhost:5000/jpa/users/in28minutes/todos
+- GET - http://localhost:5000/jpa/users/todoUser/todos
 
 ```
 [
   {
     "id": 10001,
-    "username": "in28minutes",
+    "username": "todoUser",
     "description": "Learn JPA",
     "targetDate": "2019-06-27T06:30:30.696+0000",
     "done": false
   },
   {
     "id": 10002,
-    "username": "in28minutes",
+    "username": "todoUser",
     "description": "Learn Data JPA",
     "targetDate": "2019-06-27T06:30:30.700+0000",
     "done": false
   },
   {
     "id": 10003,
-    "username": "in28minutes",
+    "username": "todoUser",
     "description": "Learn Microservices",
     "targetDate": "2019-06-27T06:30:30.701+0000",
     "done": false
@@ -56,12 +56,12 @@ Hello World
 
 #### Retrieve a specific todo
 
-- GET - http://localhost:5000/jpa/users/in28minutes/todos/10001
+- GET - http://localhost:5000/jpa/users/todoUser/todos/10001
 
 ```
 {
   "id": 10001,
-  "username": "in28minutes",
+  "username": "todoUser",
   "description": "Learn JPA",
   "targetDate": "2019-06-27T06:30:30.696+0000",
   "done": false
@@ -72,11 +72,11 @@ Hello World
 
 
 
-- POST to http://localhost:5000/jpa/users/in28minutes/todos with BODY of Request given below
+- POST to http://localhost:5000/jpa/users/todoUser/todos with BODY of Request given below
 
 ```
 {
-  "username": "in28minutes",
+  "username": "todoUser",
   "description": "Learn to Drive a Car",
   "targetDate": "2030-11-09T10:49:23.566+0000",
   "done": false
@@ -85,12 +85,12 @@ Hello World
 
 #### Updating an existing todo
 
-- PUT Request to http://localhost:5000/jpa/users/in28minutes/todos/10001 with BODY of Request given below
+- PUT Request to http://localhost:5000/jpa/users/todoUser/todos/10001 with BODY of Request given below
 
 ```
 {
   "id": 10001,
-  "username": "in28minutes",
+  "username": "todoUser",
   "description": "Learn to Drive a Car",
   "targetDate": "2045-11-09T10:49:23.566+0000",
   "done": false
@@ -99,7 +99,7 @@ Hello World
 
 #### Delete todo
 
-- DELETE to http://localhost:5000/jpa/users/in28minutes/todos/10001
+- DELETE to http://localhost:5000/jpa/users/todoUser/todos/10001
 
 
 ## H2 Console
