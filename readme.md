@@ -105,7 +105,7 @@ Hello World
 ## H2 Console
 
 - http://localhost:5000/h2-console
-- Use `jdbc:h2:mem:testdb` as JDBC URL 
+- Use `jdbc:h2:mem:testdb` as JDBC URL   
 
 
 ## Build Spec for AWS Code Pipeline
